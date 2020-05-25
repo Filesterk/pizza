@@ -1,0 +1,150 @@
+@media(max-width: 1199px){
+	html{
+		font-size: 9px;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left: 20%;
+    }
+
+    @media screen and (max-width: 1105px){
+    nav{
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width: 1010px){
+	.header{
+		width: 90%;
+	}
+    .menu a{
+        display: none;
+    }
+    .header a.icon{
+        /*float: right;*/
+        /*margin-top: -20px;*/
+        /*display: block;*/
+        font-size: 30px;
+        color: #fff;
+        border: 2px solid green;
+         
+    }
+    .menu a{
+        padding: 12px 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    header{
+        width: 100%;
+    }
+    
+    .menu.responsive ul{
+    	/*display: flex;
+    	align-items: flex-start;
+    	flex-direction: column;
+        position: relative;
+        top: 150px;
+        left: -200px;
+        border: 2px solid blue;
+        margin-left: 55px;
+        width: 70%;*/
+
+        position: relative;
+        display: flex;
+		  align-items: flex-start;
+		  flex-direction: column;
+		  font-size: 12px;
+		  top: 170px;
+		  border: 2px solid red;
+		  margin-left: 0;
+    }
+    /*.header.responsive a.icon{
+        position: absolute;
+        align-items: center;        
+        right: 50px;
+        border: 2px solid green;        
+    }*/
+    .menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+
+@media(max-width: 991px){
+	html{
+		font-size: 9px;
+	}		
+	.m-menu-link{
+		display: block;
+	}
+	.get-started-btn{
+		margin: 0;
+	}
+	.price-tags{
+    	flex-direction: column;
+	}
+	.price-tag{
+	    width: 90%;
+	    margin: 2rem auto;
+	}	
+
+
+	.footer{
+		border: 2px solid blue; 
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+		justify-content: center;
+	}
+	
+	.legal{
+		flex-direction: column;
+		padding-bottom: 5rem;
+	}
+	.social-links{
+		padding-top: 5rem;
+	}
+	.social-links a{
+		font-size: 3rem;		
+	}
+}
+
+@media(max-width: 554px){
+	.table{
+		width: auto;
+		padding: 5em 2rem;
+	}
+	.table-header{
+		padding-top: 5rem;
+	}
+	.table-header h2{
+    font-size: 3rem;
+	}
+	.table-header p{
+    width: auto;
+	}
+	.price-tag img{
+		width: 100%;
+	}
+	
+}
+
+@media(max-width: 640px){
+	.slider{
+		height: 100vh;
+		flex-flow: column;
+	}
+	.item{
+		width: 100%;
+	}
+	.item:hover{
+        flex-grow: 30%;
+    }
+	
+}
